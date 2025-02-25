@@ -38,7 +38,7 @@ if summarize_button:
         with st.spinner("Generating summary..."):
             summary = summarizer(input_text, max_length=100, min_length=30, do_sample=False)
             st.subheader("📑 Summary:")
-            st.write(summary[0]['summary_text']).title()
+            st.write(summary[0]['summary_text']).capitalize()
     else:
         st.warning("Please! Enter some text to summarize.")
 
