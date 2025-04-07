@@ -4,10 +4,8 @@ from transformers import pipeline
 
 # Load the model
 @st.cache_resource
-def load_model():
-    return pipeline("summarization", model="t5-base", tokenizer="t5-base")
-
-summarizer = load_model()
+# Load the model
+summarizer = pipeline("summarization", model="t5-small", tokenizer="t5-small")
 
 # Streamlit User interface
 st.set_page_config(page_title="Text Summarizer", page_icon="📝", layout="centered")
