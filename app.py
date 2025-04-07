@@ -3,8 +3,6 @@ import streamlit as st
 from transformers import pipeline
 
 # Load the model
-@st.cache_resource
-# Load the model
 summarizer = pipeline("summarization", model="t5-small", tokenizer="t5-small")
 
 # Streamlit User interface
