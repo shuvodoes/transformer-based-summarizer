@@ -26,7 +26,7 @@ Clone or download the repository to your local machine.
 
 
 
-git clone https://github.com/yourusername/transformer-based-summarizer.git
+git clone https://github.com/shuvodoes/transformer-based-summarizer.git
 Navigate to the project directory.
 
 
